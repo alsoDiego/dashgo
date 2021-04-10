@@ -54,7 +54,7 @@ export default function UserList() {
                             <Button
                                 as="a"
                                 size="sm"
-                                colorScheme="purple"
+                                colorScheme="whiteAlpha"
                                 leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                                 >
                                     Editar
@@ -76,7 +76,7 @@ export default function UserList() {
                             <Button
                                 as="a"
                                 size="sm"
-                                colorScheme="purple"
+                                colorScheme="whiteAlpha"
                                 leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                                 >
                                     Editar
@@ -98,7 +98,7 @@ export default function UserList() {
                             <Button
                                 as="a"
                                 size="sm"
-                                colorScheme="purple"
+                                colorScheme="whiteAlpha"
                                 leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                                 >
                                     Editar
