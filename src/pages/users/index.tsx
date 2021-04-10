@@ -2,6 +2,7 @@ import { Box, Button, Checkbox, Flex, Heading, Icon, Table, Tbody, Td, Text, Th,
 import React from "react";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
 
+import { Pagination } from "../../components/Form/Pagination";
 import { Header } from "../../components/Header";
 import { Sidebar } from "../../components/Sidebar";
 
@@ -54,7 +55,10 @@ export default function UserList() {
                             <Button
                                 as="a"
                                 size="sm"
-                                colorScheme="whiteAlpha"
+                                        bg="gray.700"
+                                        _hover={{
+                                            bg: 'gray.500'
+                                        }}
                                 leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                                 >
                                     Editar
@@ -76,7 +80,10 @@ export default function UserList() {
                             <Button
                                 as="a"
                                 size="sm"
-                                colorScheme="whiteAlpha"
+                                        bg="gray.700"
+                                        _hover={{
+                                            bg: 'gray.500'
+                                        }}
                                 leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                                 >
                                     Editar
@@ -98,7 +105,10 @@ export default function UserList() {
                             <Button
                                 as="a"
                                 size="sm"
-                                colorScheme="whiteAlpha"
+                                        bg="gray.700"
+                                        _hover={{
+                                            bg: 'gray.500'
+                                        }}
                                 leftIcon={<Icon as={RiPencilLine} fontSize="16" />}
                                 >
                                     Editar
