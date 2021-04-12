@@ -3,8 +3,8 @@ import React from "react";
 import { RiAddLine, RiPencilLine } from "react-icons/ri";
 
 import { Pagination } from "../../components/Form/Pagination";
-import { Header } from "../../components/Header";
-import { Sidebar } from "../../components/Sidebar";
+import { Header } from "../../components/Header/Index";
+import { Sidebar } from "../../components/Sidebar/Index";
 
 export default function UserList() {
     return (
